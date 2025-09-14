@@ -6,7 +6,7 @@ PC WITH PYTHON SOFTWARE
 # Program
 
 ## Impulse Sampling
-```
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import resample
@@ -47,7 +47,7 @@ plt.show()
 ```
 
 ## Natural sampling
-```
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
@@ -108,7 +108,7 @@ plt.tight_layout()
 plt.show()
 ```
 ## Flat-top Sampling
-```
+```python
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
